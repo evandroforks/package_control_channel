@@ -1,5 +1,5 @@
 <!--
-Please have patience, we usually need a few weeks to get around to reviewing your submission. 
+Please have patience, we usually need a few weeks to get around to reviewing your submission.
 To help us do so, please provide some information about your package:
 -->
 
@@ -24,14 +24,14 @@ There are no packages like it in Package Control.
 <!-- OR -->
 My package is similar to ... However it should still be added because ...
 
-<!-- 
+<!--
 A word about AI use:
 Although we use automation, a human will be reviewing your submission. An important part of this is an assessment of the ability and willingness of the human submitting the package (i.e. you) to support it long term. This is therefore primarily a human to human conversation. While you're welcome to use any form of automation, you are expected to participate in this conversation yourself.
 
 *)   If you do need a context menu, make sure the menu applies to the cursor
      context, and the commands are conditional. Space in this menu is limited!
 **)  There aren't enough keys for all packages, so you risk overriding those
-     of other packages. You can put commented out suggestions in a keymap file, 
+     of other packages. You can put commented out suggestions in a keymap file,
      and/or explain how to create bindings in your README.
 ***) Syntaxes should work in any color scheme the user chooses.
 

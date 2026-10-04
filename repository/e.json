@@ -13,9 +13,45 @@
 		{
 			"name": "E100 Assembly",
 			"details": "https://github.com/ahouse101/SublimeE100Assembly",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Earthbound Themes",
+			"details": "https://github.com/benbusby/sublime-earthbound-themes",
+			"author": "Ben Busby",
+			"labels": ["theme", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Earthly Earthfile",
+			"details": "https://github.com/earthly/sublimetext-earthly-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Easy CP",
+			"details": "https://github.com/RohitMazumder/EasyCP",
+			"labels": ["competitive-programming", "test", "cp", "web-scrapping", "java", "python", "c++"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -34,7 +70,7 @@
 		{
 			"name": "Easy Import",
 			"details": "https://github.com/tushortz/EasyImport",
-			"labels": ["java", "auto-complete", "utilities", "completion", "autocomplete", "code generation"],
+			"labels": ["auto-complete", "code generation", "completions", "utilities", "java"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -56,7 +92,7 @@
 		},
 		{
 			"name": "Easy Siebel",
-			"details": "https://github.com/ouzklcn/Easy-Siebel",
+			"details": "https://github.com/oguzkilcan/Easy-Siebel",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
@@ -68,7 +104,7 @@
 		{
 			"name": "EasyCatalog",
 			"details": "https://github.com/julux/EasyCatalog",
-			"labels": ["snippets", "language syntax", "auto-complete"],
+			"labels": ["auto-complete", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -80,29 +116,23 @@
 			"name": "EasyClangComplete",
 			"details": "https://github.com/niosus/EasyClangComplete",
 			"homepage": "https://niosus.github.io/EasyClangComplete",
-			"readme": "https://raw.githubusercontent.com/niosus/EasyClangComplete/master/docs/pc_readme.md",
 			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2QLY7J4Q944HS",
-			"labels": [
-				"auto-complete",
-				"autocompletion",
-				"clang",
-				"ide",
-				"intellisense",
-				"completion",
-				"Completion",
-				"completions",
-				"linting",
-				"c",
-				"c++",
-				"C",
-				"C++",
-				"cmake",
-				"language syntax"
-			],
+			"labels": ["auto-complete", "completions", "language syntax", "linting", "ide", "clang", "cmake", "c", "c++"],
 			"releases": [
 				{
 					"sublime_text": ">=3070",
-					"platforms": ["osx", "linux", "windows"],
+					"platforms": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EasyCommit",
+			"details": "https://github.com/educbraga/EasyCommit",
+			"labels": ["git", "commit", "push", "easy"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -111,8 +141,12 @@
 			"details": "https://github.com/facelessuser/EasyDiff",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "3000 - 4200",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4201",
+					"tags": "st4-"
 				}
 			]
 		},
@@ -127,11 +161,12 @@
 			]
 		},
 		{
-			"name": "Easygit",
-			"details": "https://github.com/Ivanca/easygit",
+			"name": "EasyFileHider",
+			"details": "https://github.com/AustinTruex68/EasyFileHider",
+			"labels": ["file", "hider", "easy", "clean"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -153,7 +188,7 @@
 		{
 			"name": "EasyRequire",
 			"details": "https://github.com/daguej/sublime-easyrequire",
-			"labels": ["text manipulation", "snippets", "javascript"],
+			"labels": ["snippets", "text manipulation", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -171,12 +206,45 @@
 			]
 		},
 		{
+			"name": "EasyWinPath",
+			"details": "https://github.com/DeusDeorum1/EasyWinPath",
+			"labels": ["win", "files", "path", "escape", "backslash"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EasyWorkspace",
 			"details": "https://github.com/jmooney/EasyWorkspace-sublime",
 			"labels": ["workspace", "files", "project"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "eazyBI MDX",
+			"details": "https://github.com/SKrooshof/sublime-eazybi-mdx-syntax",
+			"labels": ["language syntax", "eazybi", "mdx"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ebitengine Kage",
+			"details": "https://github.com/sedyh/ebitengine-kage-sublime",
+			"labels": ["language syntax", "snippets", "kage", "ebitengine"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -204,7 +272,7 @@
 			]
 		},
 		{
-			"details": "https://github.com/phildopus/EclipseJavaFormatter",
+			"details": "https://github.com/i-am-a-paull/EclipseJavaFormatter",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -215,7 +283,7 @@
 		{
 			"name": "Ecmascript Syntax",
 			"details": "https://github.com/bathos/Ecmascript-Sublime",
-			"labels": [ "Javascript", "ES6", "ES2015", "language syntax" ],
+			"labels": ["javascript", "es6", "es2015", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -226,6 +294,7 @@
 		{
 			"name": "eco",
 			"details": "https://github.com/davidjrice/sublime-eco",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -246,6 +315,7 @@
 		{
 			"name": "ECT",
 			"details": "https://github.com/TurtlePie/Sublime-ECT",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -264,8 +334,9 @@
 			]
 		},
 		{
-			"name": "Edge Syntax Highliter",
-			"details": "https://github.com/poppinss/edge-sublime-syntax",
+			"name": "Edge templates extension",
+			"details": "https://github.com/edge-js/edge-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -298,16 +369,36 @@
 			]
 		},
 		{
+			"name": "EdgeDB",
+			"details": "https://github.com/edgedb/edgedb-editor-plugin",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "EdgeOS",
 			"description": "Syntax highlighting for EdgeMax EdgeOS.",
 			"details": "https://github.com/lojoja/sublime-syntax-edgeos",
-			"issues": "https://github.com/lojoja/sublime-syntax-edgeos/issues",
-			"readme": "https://raw.githubusercontent.com/lojoja/sublime-syntax-edgeos/master/README.md",
 			"author": "lojoja",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EDIBlime",
+			"details": "https://github.com/encefalopiatto/EDIBlime",
+			"labels": ["language syntax", "utilities", "minify", "convert"],
+			"releases": [
+				{
+					"sublime_text": ">=4095",
 					"tags": true
 				}
 			]
@@ -366,20 +457,33 @@
 			]
 		},
 		{
-			"name": "EditorConfig",
-			"details": "https://github.com/sindresorhus/editorconfig-sublime",
-			"labels": ["linting", "text manipulation", "formatting", "code style", "snippets"],
+			"name": "Editmode",
+			"author": "Tony Ennis",
+			"description": "Send text to the editmode API & insert a snippet in its place.",
+			"details": "https://github.com/tonyennis145/editmode-sublime",
+			"labels": ["snippets", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EditorConfig",
+			"details": "https://github.com/sindresorhus/editorconfig-sublime",
+			"labels": ["language syntax", "code style", "formatting", "linting", "snippets", "text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "EditorConfigSnippets",
 			"details": "https://github.com/mfuentesg/EditorConfigSnippets",
-			"labels": ["formatting", "code style"],
+			"labels": ["code style", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -412,7 +516,7 @@
 		{
 			"name": "Eiffel-Language",
 			"details": "https://github.com/Thomas-Boutin/Eiffel-Language",
-			"labels": ["language syntax", "snippets", "color scheme"],
+			"labels": ["color scheme", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -422,23 +526,26 @@
 		},
 		{
 			"name": "EJS",
-			"details": "https://github.com/samholmes/EJS.tmLanguage",
-			"labels": ["language syntax"],
+			"details": "https://github.com/SublimeText/EJS",
+			"labels": ["language syntax", "snippets"],
+			"previous_names": ["EJS 2"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/samholmes/EJS.tmLanguage",
+					"sublime_text": "<=3097",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "EJS 2",
-			"details": "https://github.com/nwoltman/sublime-ejs",
-			"labels": ["language syntax", "snippets", "color scheme"],
-			"releases": [
+				},
 				{
-					"sublime_text": ">=3098",
-					"tags": true
+					"sublime_text": "3098 - 4106",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": "4107 - 4151",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4152",
+					"tags": "4152-"
 				}
 			]
 		},
@@ -464,6 +571,7 @@
 		{
 			"name": "Electric Imp Developer",
 			"details": "https://github.com/electricimp/ElectricImp-Sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -509,7 +617,8 @@
 		},
 		{
 			"name": "Elixir",
-			"details": "https://github.com/elixir-lang/elixir-tmbundle",
+			"details": "https://github.com/elixir-editors/elixir-tmbundle",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -518,8 +627,20 @@
 			]
 		},
 		{
+			"name": "ElixirDocs",
+			"details": "https://github.com/reisub/sublime-elixir-docs",
+			"labels": ["elixir", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3154",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "ElixirFormatter",
-			"details": "https://github.com/karolsluszniak/elixir-formatter-sublime",
+			"details": "https://github.com/myskoach/sublime-elixir-formatter",
+			"labels": ["formatting", "elixir", "mix"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -549,11 +670,11 @@
 		},
 		{
 			"name": "ElixirSyntax",
-			"details": "https://github.com/princemaple/elixir-sublime-syntax",
+			"details": "https://github.com/elixir-editors/elixir-sublime-syntax",
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": ">=4077",
 					"tags": true
 				}
 			]
@@ -569,17 +690,12 @@
 			]
 		},
 		{
-			"name": "Elm Language Support",
-			"details": "https://github.com/elm-community/SublimeElmLanguageSupport",
-			"labels": ["language syntax"],
-			"previous_names": ["Elm Syntax Highlighting"],
+			"name": "Elm Format on Save",
+			"details": "https://github.com/evancz/elm-format-on-save",
+			"labels": ["formatting", "elm"],
 			"releases": [
 				{
-					"sublime_text": "<3092",
-					"tags": "st2-"
-				},
-				{
-					"sublime_text": ">=3092",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -588,6 +704,28 @@
 			"name": "Elm Snippets",
 			"details": "https://github.com/rudolfb/elm_snippets",
 			"labels": ["snippets", "elm"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Elm Syntax Highlighting",
+			"details": "https://github.com/evancz/elm-syntax-highlighting",
+			"labels": ["elm", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Eloquence",
+			"details": "https://github.com/macMikey/eloquence-sublime-text-syntax",
+			"labels": ["eloquence", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -607,8 +745,18 @@
 			]
 		},
 		{
+			"name": "Elvish Syntax",
+			"details": "https://github.com/href/elvish_syntax_for_sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Emacs Pro Essentials",
-			"previous_names": ["sublemacspro"],
 			"details": "https://github.com/sublime-emacs/sublemacspro",
 			"releases": [
 				{
@@ -624,7 +772,7 @@
 		{
 			"name": "Emacs Tabstops",
 			"details": "https://github.com/KristoforMaynard/EmacsTabstops",
-			"labels": ["emacs", "formatting", "text manipulation"],
+			"labels": ["formatting", "text manipulation", "emacs"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -644,7 +792,7 @@
 		},
 		{
 			"name": "Email Header",
-			"labels": ["eml", "msg", "email", "e-mail", "mail", "header", "headers", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
+			"labels": ["language syntax", "eml", "msg", "email", "e-mail", "mail", "header", "headers", "rfc2045", "rfc2046", "rfc2047", "rfc4288", "rfc4289", "rfc2049"],
 			"author": "Richard Davis",
 			"details": "https://github.com/13Cubed/EmailHeader",
 			"releases": [
@@ -668,29 +816,7 @@
 		{
 			"name": "Ember Single-File Component Syntax",
 			"details": "https://github.com/urbany/ember-sfc-syntax-highlight",
-			"labels": ["ember", "sfc", "single-file", "syntax", "highlighting", "handlebars", "glimmer"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Ember Syntax",
-			"details": "https://github.com/healthsparq/sublime-ember-syntax",
-			"labels": ["ember", "syntax", "highlighting", "handlebars", "glimmer"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Ember Template Component Split View",
-			"details": "https://github.com/mmitchellgarcia/ember-component-template-split-view",
-			"labels": ["ember", "cli"],
+			"labels": ["ember", "sfc", "single-file", "language syntax", "handlebars", "glimmer"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -744,10 +870,9 @@
 		},
 		{
 			"name": "EML (E-Mail)",
-			"labels": ["eml", "email", "mail", "mime", "e-mail", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
+			"labels": ["language syntax", "eml", "email", "mail", "mime", "e-mail", "rfc2045", "rfc2046", "rfc2047", "rfc4288", "rfc4289", "rfc2049"],
 			"details": "https://github.com/mariozaizar/eml-tmLanguage",
 			"author": "Mario Zaizar",
-			"donate": "https://gratipay.com/mariozaizar/",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -757,23 +882,13 @@
 		},
 		{
 			"name": "EML Syntax",
-			"labels": ["eml", "email", "mail", "e-mail", "RFC5322"],
+			"labels": ["language syntax", "eml", "email", "mail", "e-mail", "rfc5322"],
 			"details": "https://github.com/jacobmovingfwd/eml-syntax",
 			"author": "Jacob Lee",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Emmet",
-			"details": "https://github.com/sergeche/emmet-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -823,7 +938,7 @@
 		{
 			"name": "Emoji Code",
 			"details": "https://github.com/idleberg/sublime-emoji-code",
-			"labels": ["emoji", "auto-complete", "unicode", "css", "html"],
+			"labels": ["auto-complete", "emoji", "unicode", "css", "html"],
 			"releases": [
 				{
 					"sublime_text": ">3000",
@@ -853,6 +968,17 @@
 			]
 		},
 		{
+			"name": "Enaml Syntax Highlighter",
+			"details": "https://github.com/nucleic/sublime-enaml-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Energy Color Scheme",
 			"details": "https://github.com/sandralundgren/Energy-Sublime-Text-theme",
 			"labels": ["theme", "color scheme"],
@@ -876,6 +1002,7 @@
 		{
 			"name": "Enhanced HTML and CFML",
 			"details": "https://github.com/Siddley/Enhanced.HTML.CFML",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -928,22 +1055,11 @@
 		{
 			"name": "eno",
 			"details": "https://github.com/eno-lang/sublime-eno",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Ensime",
-			"author": "The Ensime committers",
-			"details": "https://github.com/ensime/ensime-sublime",
-			"labels": ["scala", "language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": "v"
 				}
 			]
 		},
@@ -959,17 +1075,6 @@
 			]
 		},
 		{
-			"name": "Entropy",
-			"details": "https://bitbucket.org/demandware/entropy",
-			"labels": ["demandware"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Entypo Completions",
 			"details": "https://github.com/jbrooksuk/SublimeEntypoCompletions",
 			"labels": ["auto-complete"],
@@ -977,17 +1082,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Environment Settings",
-			"details": "https://bitbucket.org/daniele-niero/environmentsettings",
-			"labels": ["environment", "variables", "project"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -1005,7 +1099,7 @@
 		{
 			"name": "EON JS snippets",
 			"details": "https://github.com/jaymie-timperley/EON-JS-Snippets",
-			"labels": ["EON", "snippets"],
+			"labels": ["snippets", "eon"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1028,20 +1122,11 @@
 		{
 			"name": "EPL",
 			"details": "https://github.com/StefanE/sublime-epl",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "EPM",
-			"details": "https://github.com/ethereum-package-manager/epm-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -1051,6 +1136,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EraBasic",
+			"details": "https://github.com/Fegelein21/sublime-erabasic",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1068,7 +1164,7 @@
 		{
 			"name": "ERB Autocomplete",
 			"details": "https://github.com/CasperLaiTW/ERBAutocomplete",
-			"labels": ["ERB", "auto-complete"],
+			"labels": ["language syntax", "auto-complete", "erb"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1109,8 +1205,8 @@
 		},
 		{
 			"name": "ES6-Toolkit",
-			"details": "https://github.com/Stephn-R/ES6-Toolkit-for-Sublime",
-			"labels": ["javascript", "snippets", "precompiler", "es2015", "ecmascript6"],
+			"details": "https://github.com/stephnr/es6-toolkit-for-sublime",
+			"labels": ["snippets", "precompiler", "es2015", "ecmascript6", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1126,6 +1222,18 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "eScript Syntax",
+			"details": "https://github.com/polserver/sublime-escript",
+			"author": "POL Team",
+			"labels": ["language syntax", "auto-complete", "build system", "color scheme", "tooltips"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1173,8 +1281,8 @@
 		},
 		{
 			"name": "ESLintAutoFix",
-			"details": "https://github.com/a324539017/eslintAutoFix",
-			"labels": ["javascript", "eslint", "autoFix", "formatter"],
+			"details": "https://github.com/alex-mm/eslintAutoFix",
+			"labels": ["formatting", "javascript", "eslint", "autofix"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1185,7 +1293,7 @@
 		{
 			"name": "esoftplay",
 			"details": "https://github.com/esoftplay/sublimetext-snippets",
-			"labels":["snippets", "esoftplay inc", "language syntax"],
+			"labels": ["snippets", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1206,6 +1314,7 @@
 		{
 			"name": "ESP (EcmaScript Pages) Edit Mode",
 			"details": "https://github.com/balazstth/subl-esp",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1215,13 +1324,45 @@
 		},
 		{
 			"name": "ESpec",
-			"previous_names": ["ESpec syntax highlighting"],
 			"details": "https://github.com/retgoat/ESpec",
-			"labels":["snippets", "build system", "language syntax"],
+			"labels": ["build system", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ESPHome",
+			"details": "https://github.com/SublimeText/ESPHome",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4143",
+					"tags": "4143-"
+				}
+			]
+		},
+		{
+			"name": "ESQL",
+			"details": "https://github.com/elastic/esql-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Estomato",
+			"details": "https://github.com/rakibulhaq/Estomato",
+			"labels": ["text manipulation", "text selection", "aggregation"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1240,7 +1381,7 @@
 		{
 			"name": "Ethereum",
 			"details": "https://github.com/davidhq/SublimeEthereum",
-			"labels": ["language syntax"],
+			"labels": ["language syntax", "solidity", "vyper", "smart contracts", "blockchain", "cairo", "starknet"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1261,17 +1402,7 @@
 		{
 			"name": "ETPL",
 			"details": "https://github.com/ecomfe/sublime-etpl",
-			"labels": ["snippets", "language", "syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Eval",
-			"details": "https://github.com/ViktorQvarfordt/Sublime-Eval",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1321,20 +1452,20 @@
 			]
 		},
 		{
-			"name": "EvercodeLab Sublime Snippets",
-			"details": "https://github.com/EvercodeLab/evercodelab-sublime-snippets",
-			"labels": ["snippets"],
+			"name": "Evergarden color schemes",
+			"details": "https://github.com/everviolet/sublime-text",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "Evernote",
 			"details": "https://github.com/bordaigorl/sublime-evernote",
-			"labels": ["evernote", "markdown"],
+			"labels": ["language syntax", "evernote", "markdown"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1353,13 +1484,36 @@
 			]
 		},
 		{
+			"name": "evscript",
+			"details": "https://codeberg.org/ISSOtm/sublime-evscript",
+			"labels": ["language syntax", "game boy", "rgbds"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Exact Quick Find",
+			"details": "https://github.com/aafulei/sublime-exact-quick-find",
+			"author": "Aaron Fu Lei",
+			"labels": ["search", "text navigation", "text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Exalt",
 			"details": "https://github.com/eerohele/exalt",
-			"labels": ["xml", "html", "xslt", "validation", "formatting"],
+			"labels": ["language syntax", "formatting", "validation", "xml", "html", "xslt"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"platforms": ["osx-x64", "linux-x64", "windows-x64", "windows-x32"],
+					"platforms": ["osx-x64", "linux-x64", "windows"],
 					"tags": true
 				}
 			]
@@ -1415,9 +1569,54 @@
 			]
 		},
 		{
+			"name": "ExecInput",
+			"details": "https://github.com/mheinzler/ExecInput",
+			"labels": ["input", "stdin", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">=3176",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Executor",
+			"details": "https://github.com/tonsky/Sublime-Executor",
+			"labels": ["build system"],
+			"releases": [
+				{
+					"sublime_text": ">=4081",
+					"platforms": ["osx", "linux"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "exercism",
-			"previous_names": ["STexercism"],
 			"details": "https://github.com/thosgood/STexercism",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "EXIF Syntax",
+			"details": "https://github.com/alberti42/EXIF-Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Expand and Edit",
+			"details": "https://github.com/aafulei/sublime-expand-and-edit",
+			"author": "Aaron Fu Lei",
+			"labels": ["cursors manipulation", "text manipulation", "text selection"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1452,7 +1651,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1463,6 +1662,19 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Expand Selection to Line Upwards",
+			"details": "https://github.com/aafulei/sublime-expand-selection-to-line-upwards",
+			"author": "Aaron Fu Lei",
+			"labels": ["expand selection", "text selection"],
+			"releases": [
+				{
+					"platforms": "*",
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1490,7 +1702,7 @@
 		{
 			"name": "Expand Tabs on Save",
 			"details": "https://github.com/bubenkoff/ExpandTabsOnSave-SublimeText",
-			"labels": ["text indentation", "whitespace", "tabs"],
+			"labels": ["indentation", "whitespace", "tabs"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1501,7 +1713,7 @@
 		{
 			"name": "ExpandCMacro",
 			"details": "https://github.com/pl-ca/ExpandCMacro",
-			"labels": ["Expand", "Macro", "Expansion", "C", "C++"],
+			"labels": ["expand", "macro", "expansion", "c", "c++"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1513,7 +1725,18 @@
 		{
 			"name": "ExpandRegion",
 			"details": "https://github.com/aronwoost/sublime-expand-region",
-			"labels": ["text selection", "expand selection", "snippets", "code navigation"],
+			"labels": ["snippets", "code navigation", "expand selection", "text selection"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ExpandSelectionToComments",
+			"details": "https://github.com/timfjord/ExpandSelectionToComments",
+			"labels": ["expand", "selection", "comment"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1533,11 +1756,37 @@
 			]
 		},
 		{
-			"details": "https://github.com/facelessuser/ExportHtml",
+			"name": "Explain PostgreSQL",
+			"details": "https://github.com/MGorkov/explain-postgresql-sublime",
+			"labels": ["formatting", "sql", "postgresql", "explain", "tools"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/facelessuser/ExportHtml",
+			"releases": [
+				{
+					"sublime_text": "3000 - 4200",
 					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4201",
+					"tags": "st4-"
+				}
+			]
+		},
+		{
+			"name": "Expr",
+			"details": "https://github.com/guille/sublime-expr",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -1555,7 +1804,7 @@
 		{
 			"name": "Express Completion",
 			"details": "https://github.com/fakhrullah/sublime-expressjs-4-completion",
-			"labels": ["javascript","completions","express"],
+			"labels": ["completions", "express", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1566,7 +1815,7 @@
 		{
 			"name": "ExpressComplete",
 			"details": "https://github.com/Heedster/ExpressComplete",
-			"labels": ["auto-complete", "javascript","completions","nodejs"],
+			"labels": ["auto-complete", "completions", "javascript", "nodejs"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1577,7 +1826,6 @@
 		{
 			"name": "Expression",
 			"details": "https://github.com/shagabutdinov/sublime-expression",
-			"donate": "https://github.com/shagabutdinov/sublime-enhanced/blob/master/readme-donations.md",
 			"labels": ["sublime-enhanced", "text navigation", "utilities"],
 			"releases": [
 				{
@@ -1589,6 +1837,7 @@
 		{
 			"name": "ExpressionEngine",
 			"details": "https://github.com/Etsur/EE-ST2",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1599,7 +1848,6 @@
 		{
 			"name": "ExpressionEngine Add-On Builder",
 			"details": "https://github.com/lukewilkins/EE-Add-On-Builder",
-			"previous_names": ["EE Add-On Builder"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1626,7 +1874,6 @@
 		{
 			"name": "ExtendedTabSwitcher",
 			"details": "https://github.com/rajeshvaya/Sublime-Extended-Tab-Switcher",
-			"previous_names": ["GotoOpenFile", "OpenFileList"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1648,7 +1895,6 @@
 			"name": "External Command",
 			"details": "https://github.com/greneholt/SublimeExternalCommand",
 			"labels": ["text manipulation"],
-			"previous_names": ["SublimeExternalCommand"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -1686,7 +1932,7 @@
 		{
 			"name": "ExternalTools",
 			"details": "https://github.com/FelixBoers/sublime-external-tools",
-			"labels": ["utilities", "utils", "utility", "commands"],
+			"labels": ["utilities", "commands"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1697,7 +1943,7 @@
 		{
 			"name": "ExtJs Snippets",
 			"details": "https://github.com/je-poy/extjs-sublime-snippets",
-			"labels": ["utilities", "utils", "utility", "snippets", "commands"],
+			"labels": ["snippets", "utilities"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1746,6 +1992,17 @@
 			]
 		},
 		{
+			"name": "Extractor",
+			"details": "https://github.com/bogdancstrike/sublime_plugin_extractor",
+			"labels": ["text manipulation", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "eZ Publish Syntax",
 			"details": "https://github.com/SirReal/eZ-Publish-Syntax",
 			"labels": ["language syntax"],
@@ -1759,7 +2016,7 @@
 		{
 			"name": "EZWebSequenceDiagrams",
 			"details": "https://github.com/patrickayoup/sublimetext-sequencediagrams",
-			"previous_names": ["WebSequenceDiagrams"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",

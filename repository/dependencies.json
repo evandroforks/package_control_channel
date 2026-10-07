@@ -147,7 +147,13 @@
 				{
 					"base": "https://github.com/evandrocoan/channelmanager",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/channelmanager",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -192,7 +198,13 @@
 				{
 					"base": "https://github.com/evandroforks/concurrentloghandler",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandroforks/concurrentloghandler",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -282,7 +294,13 @@
 				{
 					"base": "https://github.com/evandrocoan/debugtools",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/debugtools",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -312,7 +330,13 @@
 				{
 					"base": "https://github.com/evandroforks/diffmatchpatch",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandroforks/diffmatchpatch",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -669,7 +693,13 @@
 				{
 					"base": "https://github.com/evandrocoan/plantumlconnection",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/plantumlconnection",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -684,7 +714,13 @@
 				{
 					"base": "https://github.com/evandroforks/portalockerfile",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandroforks/portalockerfile",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -729,7 +765,13 @@
 				{
 					"base": "https://github.com/evandrocoan/pushdownparser",
 					"platforms": ["*"],
-					"sublime_text": ">=3114",
+					"sublime_text": "3114 - 3999",
+					"tags": "st3-"
+				},
+				{
+					"base": "https://github.com/evandrocoan/pushdownparser",
+					"platforms": ["*"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
